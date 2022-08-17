@@ -1,0 +1,6 @@
+Failed Test Cases Are :-
+AC-8,  Error_Comment :-  The Request Fail Due To Invalid leaveCode.***leaveCode Accepting only Alphabates ***
+AC-9,  Error_Comment :-  The Request Fail Due To Invalid leaveCode.***leaveCode Accepting only Numbers ***
+AC-12,  Error_Comment :-  The Request Fail due to invalid leaveCode.***leaveCode should be min 3 characters***
+AC-13,  Error_Comment :-  The Request Fail due to invalid leaveCode.***leaveCode not exceed morethan 7 characters***
+AC-15,  Error_Comment :-  The Request Fail due to invalid leaveCode.***leaveCode contain space***

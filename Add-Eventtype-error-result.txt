@@ -1,0 +1,8 @@
+Failed Test Cases Are :-
+AC-8,  Error_Comment :-  The Request Fail Due To Invalid eventCode. *** eventCode Accepting Alphabets***
+AC-10,  Error_Comment :-  The Request Fail Due To Invalid eventCode. *** eventCode Accepting Numeric Values***
+AC-11,  Error_Comment :-  The request Fail due to invalid eventCode.***eventCode should be min 3 characters***
+AC-12,  Error_Comment :-  The Request Fail Due To Invalid eventCode. *** eventCode Accepting More Than 8  Charecters***
+AC-14,  Error_Comment :-  The Request Fail Due To Invalid eventCode. *** eventCode Accepting Space***
+AC-18,  Error_Comment :-  The Request Fail Due To Invalid Eventtype *** eventtype Accepting Space***
+AC-19,  Error_Comment :-  The Request Fail Due To Invalid eventType. *** eventType Accepting Empty Value***

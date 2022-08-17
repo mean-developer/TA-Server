@@ -1,0 +1,7 @@
+Failed Test Cases Are :-
+AC-4,  Error_Comment :-  The Request fail Due To Invalid serviceName.***serviceName Not Accepting Unique Name***
+AC-6,  Error_Comment :-  The Request Fail Due To Invalid serviceName.***serviceName Accepting More Than 20  Charecters***
+AC-8,  Error_Comment :-  The Request Fail Due To Invalid serviceCode.***serviceCode Accepting  only Alphabets ***
+AC-10,  Error_Comment :-  The Request Fail Due To Invalid serviceCode.***serviceCode Accepting only Numeric Values***
+AC-13,  Error_Comment :-  The Request Fail Due To Invalid serviceCode.***serviceCode Accepting More Than 8  Charecters***
+AC-15,  Error_Comment :-  The Request Fail Due To Invalid serviceCode.***serviceCode Accepting Space***

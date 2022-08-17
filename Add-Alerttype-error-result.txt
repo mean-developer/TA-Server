@@ -1,0 +1,6 @@
+Failed Test Cases Are :-
+AC-8,  Error_Comment :-  The Request Fail Due To Invalid alertCode.***alertCode Accepting only Alphabates ***
+AC-9,  Error_Comment :-  The Request Fail Due To Invalid alertCode.***alertCode Accepting only Numbers ***
+AC-12,  Error_Comment :-  The Request Fail Due To Invalid alertCode. *** alertCode Should be min 3 characters***
+AC-13,  Error_Comment :-  The Request Fail Due To Invalid alertCode. *** alertCode Accepting More Than 8  Charecters***
+AC-15,  Error_Comment :-  The Request Fail due to invalid alertCode.***alertCode contain space***

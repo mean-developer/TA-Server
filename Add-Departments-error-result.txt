@@ -1,0 +1,5 @@
+Failed Test Cases Are :-
+AC-8,  Error_Comment :-  The Request Fail Due To Invalid departmentCode.***departmentCode Accepting only Alphabates ***
+AC-9,  Error_Comment :-  The Request Fail Due To Invalid departmentCode.***departmentCode Accepting only Numbers ***
+AC-13,  Error_Comment :-  The Request Fail due to invalid departmentCode.***departmentCode not exceed morethan 7 characters***
+AC-15,  Error_Comment :-  The Request Fail due to invalid departmentCode.***departmentCode contain space***
