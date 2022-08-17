@@ -1,113 +1,93 @@
-2022-08-10 10:04:12,941 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2022-08-10 10:04:12,958 INFO o.a.j.JMeter: Loading user properties from: C:\Apps\apache-jmeter-5.5\bin\user.properties
-2022-08-10 10:04:12,958 INFO o.a.j.JMeter: Loading system properties from: C:\Apps\apache-jmeter-5.5\bin\system.properties
-2022-08-10 10:04:12,958 INFO o.a.j.JMeter: Setting System property: jmeter.protocol=http
-2022-08-10 10:04:12,959 INFO o.a.j.JMeter: Setting System property: jmeter.serverName=192.168.0.206
-2022-08-10 10:04:12,959 INFO o.a.j.JMeter: Setting System property: jmeter.dataFile=C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Unit\data\master-data.csv
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: Version 5.5
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: java.version=11.0.15
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: os.name=Windows 10
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: os.arch=amd64
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: os.version=10.0
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: file.encoding=Cp1252
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: java.awt.headless=true
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: Max memory     =1073741824
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: Available Processors =6
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: Default Locale=English (EN)
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: JMeterHome=C:\Apps\apache-jmeter-5.5
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: user.dir  =C:\Test-Automation\TA-Git\TA-Server
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: PWD       =C:\Test-Automation\TA-Git\TA-Server
-2022-08-10 10:04:12,963 INFO o.a.j.JMeter: IP: 192.168.0.29 Name: PerformanceTestServer FullName: PerformanceTestServer
-2022-08-10 10:04:12,984 INFO o.a.j.s.FileServer: Default base='C:\Test-Automation\TA-Git\TA-Server'
-2022-08-10 10:04:12,985 INFO o.a.j.s.FileServer: Set new base='C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Unit\scripts'
-2022-08-10 10:04:13,103 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2022-08-10 10:04:13,130 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2022-08-10 10:04:13,133 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2022-08-10 10:04:13,135 INFO o.a.j.s.SaveService: Loading file: C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Unit\scripts\Add-Unit.jmx
-2022-08-10 10:04:13,151 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2022-08-10 10:04:13,361 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-08-10 10:04:13,362 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-08-10 10:04:13,362 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-08-10 10:04:13,362 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-08-10 10:04:13,362 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2022-08-10 10:04:13,362 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2022-08-10 10:04:13,394 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
-2022-08-10 10:04:13,394 INFO o.a.j.s.SaveService: Loading file: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
-2022-08-10 10:04:13,398 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
-2022-08-10 10:04:13,399 INFO o.a.j.s.SaveService: Loading file: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
-2022-08-10 10:04:13,415 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
-2022-08-10 10:04:13,415 INFO o.a.j.s.SaveService: Loading file: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
-2022-08-10 10:04:13,435 INFO o.a.j.JMeter: Creating summariser <summary>
-2022-08-10 10:04:13,444 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-08-10 10:04:13,444 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-08-10 10:04:13,444 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-08-10 10:04:13,451 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2022-08-10 10:04:13,451 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2022-08-10 10:04:13,531 INFO o.a.j.JMeter: Running test (1660106053531)
-2022-08-10 10:04:13,546 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : [TG] Axon-Master-FT
-2022-08-10 10:04:13,546 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [TG] Axon-Master-FT.
-2022-08-10 10:04:13,546 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-08-10 10:04:13,546 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2022-08-10 10:04:13,549 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
-2022-08-10 10:04:13,550 INFO o.a.j.s.SaveService: Loading file: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
-2022-08-10 10:04:13,557 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-08-10 10:04:13,557 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-08-10 10:04:13,597 INFO o.a.j.t.JMeterThread: Thread started: [TG] Axon-Master-FT 1-1
-2022-08-10 10:04:13,599 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2022-08-10 10:04:13,599 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2022-08-10 10:04:13,599 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2022-08-10 10:04:13,599 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2022-08-10 10:04:13,603 INFO o.a.j.u.BeanShellTestElement: File deleted successfully
-2022-08-10 10:04:13,629 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = PerformanceTestServer
-2022-08-10 10:04:13,632 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2022-08-10 10:04:13,743 INFO o.a.j.s.FileServer: Stored: C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Unit\data\master-data.csv
-2022-08-10 10:04:14,457 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:14,458 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:14,499 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:14,499 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:14,645 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:14,646 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:14,739 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:14,739 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:14,871 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:14,871 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:14,927 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:14,927 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,056 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,056 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,121 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,121 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,164 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,164 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,288 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,288 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,323 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,323 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,463 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,463 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,495 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,495 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,557 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,557 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,619 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,619 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,777 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,778 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,821 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,821 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,869 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,869 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:15,913 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:15,913 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:16,106 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:16,107 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:16,227 INFO o.a.j.u.BeanShellTestElement: >>>>>>> expectedMessage=<<<<
-2022-08-10 10:04:16,242 INFO o.a.j.u.BeanShellTestElement: 2
-2022-08-10 10:04:16,244 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread [TG] Axon-Master-FT 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Unit\data\master-data.csv detected for CSV DataSet:DataFile configured with stopThread:true, recycle:false
-2022-08-10 10:04:16,244 INFO o.a.j.t.JMeterThread: Thread finished: [TG] Axon-Master-FT 1-1
-2022-08-10 10:04:16,245 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-08-10 10:04:16,246 INFO o.a.j.s.FileServer: Close: C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Unit\data\master-data.csv
-2022-08-10 10:04:16,249 INFO o.a.j.r.Summariser: summary =    403 in 00:00:03 =  148.3/s Avg:     5 Min:     0 Max:    71 Err:    21 (5.21%)
+2022-08-11 16:13:22,585 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-08-11 16:13:22,603 INFO o.a.j.JMeter: Loading user properties from: C:\Apps\apache-jmeter-5.5\bin\user.properties
+2022-08-11 16:13:22,603 INFO o.a.j.JMeter: Loading system properties from: C:\Apps\apache-jmeter-5.5\bin\system.properties
+2022-08-11 16:13:22,603 INFO o.a.j.JMeter: Setting System property: jmeter.protocol=http
+2022-08-11 16:13:22,603 INFO o.a.j.JMeter: Setting System property: jmeter.serverName=192.168.0.206
+2022-08-11 16:13:22,603 INFO o.a.j.JMeter: Setting System property: jmeter.dataFile=C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Branch\data\
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: Version 5.5
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: java.version=11.0.15
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: os.name=Windows 10
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: os.arch=amd64
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: os.version=10.0
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: java.awt.headless=true
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-08-11 16:13:22,608 INFO o.a.j.JMeter: Available Processors =6
+2022-08-11 16:13:22,615 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-08-11 16:13:22,615 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-08-11 16:13:22,615 INFO o.a.j.JMeter: JMeterHome=C:\Apps\apache-jmeter-5.5
+2022-08-11 16:13:22,615 INFO o.a.j.JMeter: user.dir  =C:\Test-Automation\TA-Git\TA-Server
+2022-08-11 16:13:22,616 INFO o.a.j.JMeter: PWD       =C:\Test-Automation\TA-Git\TA-Server
+2022-08-11 16:13:22,616 INFO o.a.j.JMeter: IP: 192.168.0.29 Name: PerformanceTestServer FullName: PerformanceTestServer
+2022-08-11 16:13:22,629 INFO o.a.j.s.FileServer: Default base='C:\Test-Automation\TA-Git\TA-Server'
+2022-08-11 16:13:22,629 INFO o.a.j.s.FileServer: Set new base='C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Branch\scripts'
+2022-08-11 16:13:22,759 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-08-11 16:13:22,774 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-08-11 16:13:22,775 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-08-11 16:13:22,775 INFO o.a.j.s.SaveService: Loading file: C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Branch\scripts\Add-Branch.jmx
+2022-08-11 16:13:22,808 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-08-11 16:13:23,003 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-08-11 16:13:23,003 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-08-11 16:13:23,003 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-08-11 16:13:23,003 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-08-11 16:13:23,003 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-08-11 16:13:23,003 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-08-11 16:13:23,026 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
+2022-08-11 16:13:23,026 INFO o.a.j.s.SaveService: Loading file: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
+2022-08-11 16:13:23,039 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
+2022-08-11 16:13:23,039 INFO o.a.j.s.SaveService: Loading file: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
+2022-08-11 16:13:23,059 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
+2022-08-11 16:13:23,059 INFO o.a.j.s.SaveService: Loading file: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
+2022-08-11 16:13:23,075 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-08-11 16:13:23,084 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-08-11 16:13:23,084 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-08-11 16:13:23,084 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-08-11 16:13:23,087 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-08-11 16:13:23,087 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-08-11 16:13:23,181 INFO o.a.j.JMeter: Running test (1660214603181)
+2022-08-11 16:13:23,195 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : [TG]Axon-Master
+2022-08-11 16:13:23,195 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [TG]Axon-Master.
+2022-08-11 16:13:23,195 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-08-11 16:13:23,195 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-08-11 16:13:23,195 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
+2022-08-11 16:13:23,195 INFO o.a.j.s.SaveService: Loading file: C:\Test-Automation\TA-Git\TA-Server\Axon\Login\scripts\instant-token.jmx
+2022-08-11 16:13:23,227 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-08-11 16:13:23,227 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-08-11 16:13:23,243 INFO o.a.j.t.JMeterThread: Thread started: [TG]Axon-Master 1-1
+2022-08-11 16:13:23,259 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-08-11 16:13:23,259 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-08-11 16:13:23,259 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-08-11 16:13:23,259 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-08-11 16:13:23,269 INFO o.a.j.u.BeanShellTestElement: Failed to delete the file
+2022-08-11 16:13:23,289 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = PerformanceTestServer
+2022-08-11 16:13:23,290 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-08-11 16:13:23,414 INFO o.a.j.s.FileServer: Stored: C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Branch\data\
+2022-08-11 16:13:23,414 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: Could not read file header line for file C:\Test-Automation\TA-Git\TA-Server\Axon\Add-Branch\data\
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:208) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:225) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:303) ~[ApacheJMeter_core.jar:5.5]
+	at java.lang.Thread.run(Thread.java:834) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: File data must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
+	... 15 more
+2022-08-11 16:13:23,422 INFO o.a.j.t.JMeterThread: Thread finished: [TG]Axon-Master 1-1
+2022-08-11 16:13:23,422 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-08-11 16:13:23,427 INFO o.a.j.r.Summariser: summary =      3 in 00:00:00 =   12.2/s Avg:    22 Min:    10 Max:    40 Err:     0 (0.00%)
